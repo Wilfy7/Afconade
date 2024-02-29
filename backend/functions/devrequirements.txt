@@ -1,0 +1,6 @@
+nodemon
+@types/nodemon
+chalk@3
+ts-node
+morgan
+@types/morgan
