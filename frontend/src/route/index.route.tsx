@@ -22,7 +22,7 @@ const IndexRoute = () => {
 
        <Routes>
         <Route path="/" element={<Homepage/>} />
-        <Route path="/lederboard" element={<Leaderboard />} />
+        <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/create-group" element={<Gamegroups />} />
         <Route path= "/groups" element={<Groups />} />
         <Route path= "/group/add-member" element={<AddMember />} />
@@ -31,7 +31,7 @@ const IndexRoute = () => {
         <Route path= "/matches/update/:matchid"  element={<UpdateMatch />} />
         <Route path= "/users/:id" element={<SingleUser />} />
         <Route path= "/matches/predictions" element={<Predictions />} />
-        <Route path= "/game-rule" element={<GameRules />} />
+        <Route path= "/game-rules" element={<GameRules />} />
         <Route 
            path= "/predictions/edit/:matchid" 
            element={<Groups />} 
