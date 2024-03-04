@@ -10,12 +10,14 @@ const Predictions = () => {
 
   //Current date
   const currentDate = new Date();
+ 
 
   //Time to display the predictions
   const predictionTimeLimit = "12:00:00";
 
   //Current time to display
   const currentTime = new Date().toLocaleTimeString();
+  
 
   //Filter and sort predictions based on today's date
   const sortedPredictions = predictions

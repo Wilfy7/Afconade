@@ -41,7 +41,7 @@ const MatchResults = () => {
   return (
     <section>
        <NavLink to="" style={{textDecoration: "none", color: "black"}}>
-          <span className="tex-xl font-bold"> All Match Results</span>
+          <span className="text-xl font-bold"> All Match Results</span>
        </NavLink> 
        <div className="row">
         {matches.length > 0 && 
