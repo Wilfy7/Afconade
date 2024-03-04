@@ -113,7 +113,7 @@ const UpdateMatch = () => {
                     </div>
                     {/* Submit button */}
                     <button type="submit" className="btn btn-primary">
-                        Udate Match
+                        Update Match
                     </button>
                 </form>
             </div>
